@@ -1,0 +1,14 @@
+-# %h1= t('categories.new_category') # referecia a locales/es.yml
+
+-# = render 'form'
+
+-# = link_to t('common.back'), categories_path
+
+.category.new-page
+	.card
+		.card-body
+			%h2 Nueva Categoría
+			
+			= render 'form'
+			
+			= link_to t('common.back'), categories_path, class: 'btn-interaction'
